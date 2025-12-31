@@ -74,10 +74,15 @@ export const About: React.FC = () => {
               ))}
             </div>
 
-            <button className="bg-[#0B0F19] text-white px-8 py-4 rounded-full font-bold text-sm tracking-wide flex items-center gap-3 hover:bg-gray-800 transition-colors">
+            <a
+              href="https://wa.me/5515997056218?text=Olá!%20Gostaria%20de%20solicitar%20uma%20proposta%20e%20um%20orçamento%20para%20o%20meu%20projeto%20com%20a%20Flowyn."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#0B0F19] text-white px-8 py-4 rounded-full font-bold text-sm tracking-wide inline-flex items-center gap-3 hover:bg-gray-800 transition-colors w-fit"
+            >
               SOLICITAR PROPOSTA
               <ArrowRight size={18} />
-            </button>
+            </a>
           </div>
 
         </div>

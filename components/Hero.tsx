@@ -29,10 +29,15 @@ export const Hero: React.FC = () => {
             vender todos os dias.
           </p>
 
-          <button className="group bg-white text-[#0B0F19] px-8 py-4 rounded-full font-bold text-sm tracking-wide flex items-center gap-3 hover:bg-cyan-50 transition-all hover:scale-105 duration-300">
+          <a 
+            href="https://wa.me/5515997056218?text=Olá%20Flowyn!%20Quero%20um%20site%20que%20venda%20e%20gostaria%20de%20solicitar%20um%20orçamento%20estrategico%20para%20o%20meu%20negócio."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white text-[#0B0F19] px-8 py-4 rounded-full font-bold text-sm tracking-wide inline-flex items-center gap-3 hover:bg-cyan-50 transition-all hover:scale-105 duration-300 w-fit"
+          >
             QUERO UM SITE QUE VENDE
             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-          </button>
+          </a>
         </div>
       </div>
 

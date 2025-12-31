@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Facebook, Instagram, Linkedin, MessageCircle, X, Sparkles } from 'lucide-react';
+import { Instagram, MessageCircle, X, Sparkles } from 'lucide-react';
+import { Music2 } from 'lucide-react'; // For TikTok icon if Lucide has it, or use custom icon below
 import { analyzeProjectRequest } from '../services/geminiService';
 import { images } from '../config/images';
 
@@ -31,15 +32,22 @@ export const Footer: React.FC = () => {
         </p>
 
         <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-          <button
-            onClick={() => setModalOpen(true)}
-            className="w-full md:w-auto bg-cyan-500 text-white px-8 py-4 rounded-full font-bold text-sm tracking-wide hover:bg-cyan-400 transition-colors shadow-lg shadow-cyan-500/20"
+          <a
+            href="https://wa.me/5515997056218?text=Olá!%20Quero%20falar%20com%20um%20especialista%20da%20Flowyn%20e%20entender%20como%20vocês%20podem%20me%20ajudar."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full md:w-auto bg-cyan-500 text-white px-8 py-4 rounded-full font-bold text-sm tracking-wide hover:bg-cyan-400 transition-colors shadow-lg shadow-cyan-500/20 text-center"
           >
             Falar com um especialista
-          </button>
-          <button className="w-full md:w-auto border border-gray-700 text-white px-8 py-4 rounded-full font-bold text-sm tracking-wide hover:border-white transition-colors">
+          </a>
+          <a
+            href="https://wa.me/5515997056218?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20o%20meu%20projeto."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full md:w-auto border border-gray-700 text-white px-8 py-4 rounded-full font-bold text-sm tracking-wide hover:border-white transition-colors text-center"
+          >
             Chamar no WhatsApp
-          </button>
+          </a>
         </div>
       </div>
 
@@ -57,9 +65,22 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="flex gap-4">
-          <a href="#" className="text-gray-400 hover:text-white transition-colors"><Instagram size={20} /></a>
-          <a href="#" className="text-gray-400 hover:text-white transition-colors"><Linkedin size={20} /></a>
-          <a href="#" className="text-gray-400 hover:text-white transition-colors"><Facebook size={20} /></a>
+          <a href="https://www.instagram.com/flowyn_agencia/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors"><Instagram size={20} /></a>
+          <a href="https://www.tiktok.com/@flowyn.agencia" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+            <svg
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              stroke="currentColor"
+              strokeWidth="2"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="lucide lucide-tiktok"
+            >
+              <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+            </svg>
+          </a>
         </div>
       </div>
 

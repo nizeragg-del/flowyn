@@ -16,15 +16,25 @@ export const Solutions: React.FC = () => {
               Qual solução digital é ideal para o seu negócio?
             </h2>
           </div>
-          <button className="hidden md:flex items-center gap-2 border border-[#0B0F19] px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider text-[#0B0F19] hover:bg-[#0B0F19] hover:text-white transition-colors">
-            Ver Portfólio Completo <ArrowRight size={16} />
-          </button>
+          <a
+            href="https://wa.me/5515997056218?text=Olá!%20Gostaria%20de%20falar%20com%20um%20especialista%20e%20solicitar%20um%20orçamento%20para%20o%20meu%20projeto."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden md:flex items-center gap-2 border border-[#0B0F19] px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider text-[#0B0F19] hover:bg-[#0B0F19] hover:text-white transition-colors"
+          >
+            Falar com um Especialista <ArrowRight size={16} />
+          </a>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
           {/* Card 1 */}
-          <div className="group relative h-[450px] rounded-2xl overflow-hidden cursor-pointer">
+          <a
+            href="https://wa.me/5515997056218?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20um%20Site%20Institucional%20Premium%20para%20o%20meu%20negócio."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative h-[450px] rounded-2xl overflow-hidden cursor-pointer"
+          >
             <img
               src={images.solutions.institutional}
               alt="Site Institucional"
@@ -42,10 +52,15 @@ export const Solutions: React.FC = () => {
               </div>
               <h3 className="text-2xl font-serif font-bold text-white">Site Institucional Premium</h3>
             </div>
-          </div>
+          </a>
 
           {/* Card 2 */}
-          <div className="group relative h-[450px] rounded-2xl overflow-hidden cursor-pointer">
+          <a
+            href="https://wa.me/5515997056218?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20uma%20Página%20de%20Vendas%20e%20E-commerce%20para%20o%20meu%20negócio."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative h-[450px] rounded-2xl overflow-hidden cursor-pointer"
+          >
             <img
               src={images.solutions.salesPage}
               alt="Sales Page"
@@ -59,12 +74,17 @@ export const Solutions: React.FC = () => {
               <div className="bg-white/20 backdrop-blur-md p-2 rounded-lg w-fit text-white mb-3">
                 <ShoppingCart size={20} />
               </div>
-              <h3 className="text-2xl font-serif font-bold text-white">Página de Vendas Estratégica</h3>
+              <h3 className="text-2xl font-serif font-bold text-white">Página de Vendas e E-commerce</h3>
             </div>
-          </div>
+          </a>
 
           {/* Card 3 */}
-          <div className="group relative h-[450px] rounded-2xl overflow-hidden cursor-pointer">
+          <a
+            href="https://wa.me/5515997056218?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20a%20Gestão%20de%20Redes%20Sociais%20da%20minha%20marca."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative h-[450px] rounded-2xl overflow-hidden cursor-pointer"
+          >
             <img
               src={images.solutions.socialMedia}
               alt="Social Media"
@@ -80,14 +100,19 @@ export const Solutions: React.FC = () => {
               </div>
               <h3 className="text-2xl font-serif font-bold text-white">Gestão de Redes Sociais</h3>
             </div>
-          </div>
+          </a>
 
         </div>
 
         <div className="mt-8 md:hidden flex justify-center">
-          <button className="flex items-center gap-2 border border-[#0B0F19] px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider text-[#0B0F19] hover:bg-[#0B0F19] hover:text-white transition-colors">
-            Ver Portfólio Completo <ArrowRight size={16} />
-          </button>
+          <a
+            href="https://wa.me/5515997056218?text=Olá!%20Gostaria%20de%20falar%20com%20um%20especialista%20e%20solicitar%20um%20orçamento%20para%20o%20meu%20projeto."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 border border-[#0B0F19] px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider text-[#0B0F19] hover:bg-[#0B0F19] hover:text-white transition-colors"
+          >
+            Falar com um Especialista <ArrowRight size={16} />
+          </a>
         </div>
       </div>
     </section>
