@@ -20,7 +20,7 @@ export const About: React.FC = () => {
             </div>
 
             {/* Floating Stat Card 1 */}
-            <div className="absolute -top-12 -left-4 md:-left-12 bg-white p-4 md:p-6 shadow-xl rounded-lg z-20 max-w-[140px] md:max-w-[180px]">
+            <div className="absolute -top-12 -left-4 md:-left-6 bg-white p-4 md:p-6 shadow-xl rounded-lg z-20 max-w-[140px] md:max-w-[180px]">
               <h3 className="text-3xl md:text-4xl font-bold text-[#0B0F19] mb-1">100+</h3>
               <p className="text-[10px] md:text-xs uppercase tracking-widest text-gray-500 font-semibold">Projetos Digitais</p>
             </div>
