@@ -10,7 +10,7 @@ export const Hero: React.FC = () => {
         <img
           src={images.hero.background}
           alt="Background"
-          className="w-full h-full object-cover object-[75%_center] md:object-right opacity-80"
+          className="w-full h-full object-cover object-[85%_center] md:object-right opacity-80"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0B0F19]/80 via-[#0B0F19]/40 to-[#0B0F19] z-10"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-[#0B0F19] via-transparent to-transparent z-10"></div>
