@@ -26,7 +26,7 @@ export const About: React.FC = () => {
             </div>
 
             {/* Secondary Image (Code/Mobile) - Absolute positioned */}
-            <div className="hidden md:block absolute -bottom-20 -right-12 w-2/3 rounded-lg overflow-hidden shadow-2xl z-20 border-8 border-white">
+            <div className="absolute -bottom-16 -right-4 w-3/4 md:-bottom-20 md:-right-12 md:w-2/3 rounded-lg overflow-hidden shadow-2xl z-20 border-4 md:border-8 border-white">
               <img
                 src={images.about.development}
                 alt="Code Development"

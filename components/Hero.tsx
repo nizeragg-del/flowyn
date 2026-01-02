@@ -10,7 +10,7 @@ export const Hero: React.FC = () => {
         <img
           src={images.hero.background}
           alt="Background"
-          className="w-full h-full object-cover object-right opacity-80"
+          className="w-full h-full object-cover object-[75%_center] md:object-right opacity-80"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0B0F19]/80 via-[#0B0F19]/40 to-[#0B0F19] z-10"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-[#0B0F19] via-transparent to-transparent z-10"></div>
@@ -29,7 +29,7 @@ export const Hero: React.FC = () => {
             vender todos os dias.
           </p>
 
-          <a 
+          <a
             href="https://wa.me/5515997056218?text=Olá%20Flowyn!%20Quero%20um%20site%20que%20venda%20e%20gostaria%20de%20solicitar%20um%20orçamento%20estrategico%20para%20o%20meu%20negócio."
             target="_blank"
             rel="noopener noreferrer"
